@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "mod name",
+  "description": "Mod description",
+  "authors": [
+    "Astrxnomo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/astrxnomo/modname",
+    "sources": "https://github.com/astrxnomo/modname"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/fastfoodmod/textures/item/pizza.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "astrxnomo.modid.modidclass"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
